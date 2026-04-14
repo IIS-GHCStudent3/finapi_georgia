@@ -44,7 +44,7 @@ def delete_price():
 @app.route("/api/client-valuation", methods=["GET"])
 def client_valuation():
     valuations = [
-        {"ClientCode": "C001", "ClientName": "John Doe", "TotalValuation": 100000.00},
+        {"ClientCode": "C001", "ClientName": "Jake Doe", "TotalValuation": 100000.00},
         {"ClientCode": "C002", "ClientName": "Jane Smith", "TotalValuation": 150000.00}
     ]
     return jsonify(valuations)
